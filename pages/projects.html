@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IEEE E-Portfolio - Projects</title>
+    <script src="../main.js" defer></script>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div id="navbar"></div> 
+
+    <div class="projects">
+        <div class="projects_container">
+            <div class="projects_description_container">
+
+                <div class="projects_heading">PROJECTS</div>
+                <div class="projects_description">Under construction... i'm not your pocket dictionary</div>
+            </div>
+            
+            <div id="projectsGrid"></div>
+           
+        </div>
+    </div>
+    
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch("navbar.html")
+                .then(response => response.text())
+                .then(data => {
+                    document.querySelector("#navbar").innerHTML = data;
+                    
+                    const menuBtn = document.querySelector("#navbar_mobile_button");
+                    const mobileMenu = document.querySelector("#navbar_mobile_container");
+
+                    menuBtn.addEventListener("click", function() {
+                        mobileMenu.classList.toggle("active");
+                        document.body.classList.toggle("no-scroll");
+
+                    });
+
+                    const mobileMenuLinks = menu.querySelectorAll("#navbar_mobile_link");
+                    
+                    mobileMenuLinks.forEach(link => {
+                        link.addEventListener("click", () => {
+                            menu.classList.remove("active");
+                            document.body.classList.remove("no-scroll");
+
+                        });
+                    });
+                
+                
+                })
+                .catch(error => console.error("Error loading navbar:", error));
+
+            if (typeof renderProjects === "function") {
+                renderProjects();
+            } else {
+                console.error("Error loading renderProjects");
+            }
+        });
+    </script>
+</body>
+</html>
