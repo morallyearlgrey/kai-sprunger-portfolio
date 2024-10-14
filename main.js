@@ -7,42 +7,42 @@ let images = ["../images/knighthacks.png", "../images/shellhacks.png", "../image
 let projects = [
     {
         title: "SprintScout",
-        description: "A brief description of Project 1.",
+        description: "SprintScout is an AI-powered recommendation engine designed to help business owners find the best accelerator programs based on their specific needs. It uses a vector search algorithm to analyze business attributes and match them with relevant programs, while also incorporating a computer vision feature for gesture-based interaction and real-time voice transcription through OpenAI’s Whisper API. The seamless integration of these technologies creates an interactive, user-friendly platform for business growth. I contributed by developing the frontend using React.js, JavaScript, HTML, and CSS, as well as designing the UI/UX interface with Canva and Figma. The project won MLH's 'Best Use of MongoDB' category and placed third in ServiceNow's sponsorship challenge.",
         image: "../images/SprintScout.png",
         link: "https://devpost.com/software/toolx",
         skills: ["React.js", "Javascript", "HTML", "CSS", "Figma"],
     },
     {
         title: "IEEE E-Portfolio Website Template",
-        description: "A brief description of Project 2.",
+        description: "The E-Portfolio Website Template for IEEE members is a user-friendly tool I developed using JavaScript, HTML, and CSS as part of the Pro Development Committee at the University of Central Florida. Designed to help users create personalized online portfolios without any coding experience, this template features a customizable design, an organized structure, and clear instructions, making it accessible for users to modify and host their own portfolio websites. Users can easily edit key files, such as index.html and styles.css, directly on GitHub and utilize GitHub Pages for hosting their e-portfolios online. Additionally, the template provides guidance for uploading custom fonts and images, as well as alternative hosting options like Netlify and Vercel.",
         image: "../images/ieeeeportfolio.png",
         link: "https://github.com/morallyearlgrey/IEEE-E-Portfolio",
         skills: ["Javascript", "HTML", "CSS", "Figma"]
     },
     {
         title: "FinAtlas",
-        description: "A brief description of Project 3.",
+        description: "FinAtlas is an AI-powered website designed to help users find financial resources, tailored specifically to their unique needs. Users can ask the AI assistant for advice on programs available for low-income households or financial aid for students, and the assistant provides clear, easy-to-understand suggestions along with a map view of nearby resources. Built with Groq’s Llama3 AI model and Google Maps API, the platform ensures reliable responses by validating user queries. I contributed by designing the Figma layout, developing a HTML/CSS documentation page, and assisting in presenting the project.",
         image: "../images/FinAtlas.png",
         link: "https://devpost.com/software/finatlas?ref_content=my-projects-tab&ref_feature=my_projects",
         skills: ["HTML", "CSS", "Figma"]
     },
     {
         title: "Default Homescreen",
-        description: "A brief description of Project 4.",
+        description: "I created an interactive default home screen using HTML, CSS, and JavaScript, featuring organized bookmarks for easy access to essential pages, which significantly enhances overall user navigation. A key feature is the innovative lightbulb icon, allowing users to toggle effortlessly between dark mode and light mode, promoting a personalized browsing experience. The design prioritizes user privacy by strictly adhering to best practices, omitting any personal data references in the HTML code to safeguard sensitive information. I personally use this home screen for my online activities, ensuring quick access to important resources while maintaining a tailored browsing experience.",
         image: "../images/defaulthomescreen.png",
         link: "https://morallyearlgrey.github.io/default-homescreen/",
         skills: ["Javascript", "HTML", "CSS", "Figma"]
     },
     {
         title: "RNA-to-Protein Translator",
-        description: "A brief description of Project 5.",
+        description: "The RNA Sequence to Protein Sequence Translator is a command-line tool I developed in C++ that translates RNA sequences into their corresponding protein sequences. Designed for high school and university students, researchers, bioinformaticians, and healthcare workers, this user-friendly program supports multiple sequences simultaneously and displays the output in a neat and readable format. It accurately converts RNA sequences while providing feedback on incorrect inputs with a '???' value, ensuring clarity for users. With simple instructions for entering RNA sequences, this tool facilitates the conversion process, making it accessible for a wide range of users.",
         image: "../images/rnatoprotein.jpeg",
         link: "https://github.com/morallyearlgrey/RNA-to-Protein-Translator",
         skills: ["C++"]
     },
     {
         title: "Human Population Simulator",
-        description: "A brief description of Project 6.",
+        description: "The human population simulator I developed using Matplotlib produces graphs that illustrate how long a hypothetical human society could survive based on several key factors, including starting population, infant mortality, disaster chance, fertility, and food production/security. This tool offers descriptive statistics and accurately models the effects of these variables, providing users with a customizable experience. Users can modify variables to tailor the simulation to their needs, and the resulting graphs are exportable for further analysis. To customize the simulation, users must download and edit the code, with specific recommendations to only modify variables in the designated # VARIABLES section.",
         image: "../images/humansimulation.png",
         link: "https://github.com/morallyearlgrey/Population-Simulation",
         skills: ["Python", "Matplotlib", "JupyterNotebook", "Colab"]
