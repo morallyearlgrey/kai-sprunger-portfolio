@@ -467,7 +467,14 @@ body.no-scroll {
 
 }
 
-@media (max-width: 479px) {
+@media (min-width: 769px) and (max-width: 920px) {
+    .hero_name, .about_heading, .projects_heading, .experiences_heading {
+        font-size: 6.5vw;
+    }
+
+}
+
+@media (max-width: 499px) {
     .hero_name, .about_heading, .projects_heading {
         font-size: 13vw;
     }
@@ -500,7 +507,7 @@ body.no-scroll {
 
 }
 
-@media (max-width: 768px) and (min-width: 480px) {
+@media (max-width: 768px) and (min-width: 500px) {
     .navbar_mobile_all_links {
         margin-top: 20vh;
         gap: 5vh;
