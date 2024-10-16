@@ -472,11 +472,16 @@ body.no-scroll {
         font-size: 13vw;
     }
 
+    .experiences_heading {
+        font-size: 12vw;
+
+    }
+
     #hero_skills, #hero_learn_more_button {
         font-size: 7vw;
     }
 
-    .hero_summary, .about_body, .projects_description {
+    .hero_summary, .about_body, .projects_description, .experiences_description {
         font-size: 4vw;
     }
 
@@ -506,6 +511,10 @@ body.no-scroll {
     #navbar_mobile_link {
         font-size: 4vw;
 
+    }
+
+    .experiences_heading {
+        font-size: 8.7vh;
     }
 
 }
@@ -668,7 +677,7 @@ body.no-scroll {
 
     #experiencesGrid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
         gap: 20px;
 
     }
