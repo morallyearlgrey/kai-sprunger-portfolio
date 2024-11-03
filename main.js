@@ -26,6 +26,14 @@ let projects = [
         link: "https://devpost.com/software/finatlas?ref_content=my-projects-tab&ref_feature=my_projects",
         skills: ["HTML", "CSS", "Figma"]
     },
+    {   
+        title: "Rock Paper AI Sensors",
+        description: "Rock Paper AI Sensors is an interactive software project that brings the classic game of rock-paper-scissors to life with the power of computer vision and AI. Using Python, along with the OpenCV and Tkinter libraries, the application allows users to play rock-paper-scissors against an AI opponent. The program captures the user's hand gesture in real-time via a camera, processes the image using OpenCV, and then identifies whether the player has chosen rock, paper, or scissors. The AI component then generates a random response, and the program determines the winner of each round based on the player’s choice and the AI’s move. Within this project, I contributed by developing an intuitive interface for gameplay within Tkinter, integrating the live camera feed from the backend into the frontend, and implementing a scoring system and displaying each round's results/associated scores on the frontend.",
+        image: "../images/rockpaperaisensors.png",
+        link: "https://github.com/morallyearlgrey/StemDay2024",
+        skills: ["Python", "Tkinter", "OpenCV"]
+
+    },
     {
         title: "Default Homescreen",
         description: "I created an interactive default home screen using HTML, CSS, and JavaScript, featuring organized bookmarks for easy access to essential pages, which significantly enhances overall user navigation. A key feature is the innovative lightbulb icon, allowing users to toggle effortlessly between dark mode and light mode, promoting a personalized browsing experience. The design prioritizes user privacy by strictly adhering to best practices, omitting any personal data references in the HTML code to safeguard sensitive information. I personally use this home screen for my online activities, ensuring quick access to important resources while maintaining a tailored browsing experience.",
@@ -61,7 +69,7 @@ let experiences = [
         title: "DESIGN TEAM MEMBER",
         organization: "🐉 Knighthacks at the University of Central Florida",
         timeline: "Sep. 2024 - Present",
-        description: "• Designed and produced professional signage for the 2024 KnightHacks hackathon, facilitating attendee navigation and enhancing event branding.",
+        description: "• Designed and produced professional signage for the 2024 KnightHacks hackathon, facilitating attendee navigation and enhancing event branding.<br>• Working on the design of the website's landing page with Figma.",
         skills: ["Canva", "Figma"],
     },
     {
@@ -104,10 +112,6 @@ let experiences = [
 
     }
     
-    
-
-
-   
 ];
 
 
@@ -124,8 +128,7 @@ function createProjectElement(project) {
             <div class="project_skills">
                 ${project.skills.map(skill => `<span class="skill">${skill}</span>`).join("")}
             </div>
-        </div>
-    `;
+        </div`;
 
     return projectElement;
 }
@@ -176,6 +179,7 @@ function renderExperiences() {
     });
 }
 
+if (typeof document !== 'undefined') {
 document.addEventListener('DOMContentLoaded', function() {
 
         let skillsIndex = 0;
@@ -241,3 +245,4 @@ document.addEventListener('DOMContentLoaded', function() {
         renderExperiences();
 
 });
+}
