@@ -20,6 +20,14 @@ let projects = [
         skills: ["Javascript", "HTML", "CSS", "Figma"]
     },
     {
+        title: "Simple To-Do-List Website",
+        description: "This simple work-in-progress To-Do-List website allows users to add tasks and complete tasks, ultimately assisting them in organizing their workload. Being one of my first CRUD projects, FireBase will be later implemented to allow for to-do-lists to be saved. The tool was developed without any tutorials using React.js based off a design developed in Figma as part of a personal challenge and project.",
+        image: "../images/todolist.png",
+        link: "https://github.com/morallyearlgrey/todolist",
+        skills: ["React.js", "Javascript", "HTML", "CSS", "Figma"]
+
+    },
+    {
         title: "FinAtlas",
         description: "FinAtlas is an AI-powered website designed to help users find financial resources, tailored specifically to their unique needs. Users can ask the AI assistant for advice on programs available for low-income households or financial aid for students, and the assistant provides clear, easy-to-understand suggestions along with a map view of nearby resources. Built with Groq’s Llama3 AI model and Google Maps API, the platform ensures reliable responses by validating user queries. I contributed by designing the Figma layout, developing a HTML/CSS documentation page, and assisting in presenting the project.",
         image: "../images/FinAtlas.png",
@@ -58,6 +66,14 @@ let projects = [
 ];
 
 let experiences = [
+    {
+        title: "KNIGHT HACKS HACKATHON ORGANIZER",
+        organization: "🐉 Knighthacks at the University of Central Florida",
+        timeline: "Dec. 2024 - Present",
+        description: "",
+        skills: ["Organization", "Leadership"]
+
+    },
     {
         title: "PRO-DEVELOPMENT COMMITTEE MEMBER",
         organization: "⚡ IEEE at the University of Central Florida",
