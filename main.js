@@ -26,7 +26,7 @@ let projects = [
         link: "https://github.com/morallyearlgrey/todolist",
         skills: ["React.js", "Javascript", "HTML", "CSS", "Figma"]
 
-    },
+    },// sdkjfhg
     {
         title: "FinAtlas",
         description: "FinAtlas is an AI-powered website designed to help users find financial resources, tailored specifically to their unique needs. Users can ask the AI assistant for advice on programs available for low-income households or financial aid for students, and the assistant provides clear, easy-to-understand suggestions along with a map view of nearby resources. Built with Groq’s Llama3 AI model and Google Maps API, the platform ensures reliable responses by validating user queries. I contributed by designing the Figma layout, developing a HTML/CSS documentation page, and assisting in presenting the project.",
